@@ -15,6 +15,11 @@ export default {
         options: ["sm", "md", "lg"],
       },
     },
+    asChild: {
+      table: {
+        disable: true,
+      }
+    }
   },
 } as Meta<TextProps>
 
@@ -37,7 +42,7 @@ export const CustomComponent: StoryObj<TextProps> = {
   args: {
     asChild: true,
     children: (
-      <p>Lorem ipsum.</p>
+      <p>Text with p tag.</p>
     )
   },
   argTypes: {
@@ -45,6 +50,11 @@ export const CustomComponent: StoryObj<TextProps> = {
       table: {
         disable: true,
       }
+    },
+    asChild: {
+      table: {
+        disable: true,
+      }
     }
-  }
+  },
 }
