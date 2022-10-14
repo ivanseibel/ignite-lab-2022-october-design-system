@@ -1,5 +1,5 @@
 // This component implements React composition pattern
-import { Slot, SlotProps } from '@radix-ui/react-slot';
+import { Slot } from '@radix-ui/react-slot';
 import { clsx } from 'clsx'
 import { ReactNode } from 'react'
 
