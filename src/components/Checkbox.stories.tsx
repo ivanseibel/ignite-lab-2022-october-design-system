@@ -5,17 +5,11 @@ import { Text } from './Text'
 export default {
   title: "Components/Checkbox",
   component: Checkbox,
-  args: {},
+  args: {
+    label: 'Rememember me for 30 days',
+  },
   argTypes: {},
-  decorators: [
-    (Story) => (
-      <div className="flex items-center gap-2">
-        {Story()}
-        <Text size='sm'>Lembrar de mim por 30 dias</Text>
-      </div>
-    ),
-  ],
-} as Meta<CheckboxProps>
 
+} as Meta<CheckboxProps>
 
 export const Default: StoryObj<CheckboxProps> = {}
