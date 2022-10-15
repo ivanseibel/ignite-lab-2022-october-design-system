@@ -1,0 +1,2 @@
+import{C as o}from"./Checkbox.bbbb429b.js";import"./index.6e0c22e5.js";import"./iframe.3e6bbe73.js";import"./index.module.fe941988.js";import"./index.e5c0db11.js";import"./Text.3d663eda.js";import"./jsx-runtime.77cc1895.js";import"./IconBase.esm.f372688c.js";const n={title:"Components/Checkbox",component:o,args:{label:"Rememember me for 30 days"},argTypes:{}},c={},l=["Default"];export{c as Default,l as __namedExportsOrder,n as default};
+//# sourceMappingURL=Checkbox.stories.b18da620.js.map
